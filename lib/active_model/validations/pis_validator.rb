@@ -1,6 +1,6 @@
 module ActiveModel
   module Validations
-    class PisValidator < LuhnValidator
+    class PisValidator < ActiveModel::EachValidator
       def validate_each(record, attr_name, value)
         return if options[:allow_nil] && value.nil?
         

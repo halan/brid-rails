@@ -1,6 +1,6 @@
 module ActiveModel
   module Validations
-    class CnpjValidator < LuhnValidator
+    class CnpjValidator < ActiveModel::EachValidator
       def validate_each(record, attr_name, value)
         return if options[:allow_nil] && value.nil?
         
