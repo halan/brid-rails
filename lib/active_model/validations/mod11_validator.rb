@@ -2,7 +2,7 @@ require 'active_model/validations'
 
 module ActiveModel
   module Validations
-    class Mod11Validator < Mod10Validator
+    class Mod11Validator < LuhnValidator
       def validate_each(record, attr_name, value)
         return if options[:allow_nil] && value.nil?
         if valid_number? value, :mod11
