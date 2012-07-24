@@ -1,7 +1,3 @@
-require 'active_model/validations'
-require 'brid'
-
-
 module ActiveModel
   module Validations
     class Mod10Validator < LuhnValidator
