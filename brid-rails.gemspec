@@ -4,8 +4,8 @@ require File.expand_path('../lib/brid-rails/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Halan Pinheiro"]
   gem.email         = ["halan.pinheiro@gmail.com"]
-  gem.description   = %q{Implement of Brid gem on ActiveModel}
-  gem.summary       = %q{Implement of Brid gem on ActiveModel}
+  gem.description   = %q{Implementation of Brid gem on ActiveModel}
+  gem.summary       = %q{Implementation of Brid gem on ActiveModel}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
