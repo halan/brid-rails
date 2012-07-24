@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Brid::Rails::VERSION
 
   gem.add_runtime_dependency 'activemodel', ['~> 3.0']
-  gem.add_runtime_dependency 'brid'
+  gem.add_runtime_dependency 'brid', ['~> 0.2']
 end
