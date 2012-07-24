@@ -6,7 +6,7 @@ module ActiveModel
 
         
         unless(CPF.new(value).valid?() rescue false)
-          record.errors.add(attr_name, (options[:message] || 'cpf_not_valid'))
+          record.errors.add(attr_name, (options[:message] || :cpf_not_valid))
         end
       end
     end
